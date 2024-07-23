@@ -27,6 +27,10 @@ export default function SharedModal({
 }: SharedModalProps) {
   const [loaded, setLoaded] = useState(false);
 
+   const loaderProp =({ src }) => {
+    return src;
+  }
+
   let filteredImages = images?.filter((img: ImageProps) =>
     range(index - 15, index + 15).includes(img.id),
   );
@@ -82,6 +86,7 @@ export default function SharedModal({
                   priority
                   alt="Next.js Conf image"
                   onLoad={() => setLoaded(true)}
+                  loader={loaderProp}
                 />
               </motion.div>
             </AnimatePresence>
