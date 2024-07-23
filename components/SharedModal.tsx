@@ -78,7 +78,7 @@ export default function SharedModal({
                 <Image
                   src={`https://res.cloudinary.com/${
                     process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
-                  }/image/upload/c_scale,${navigation ? "w_1280" : "w_1920"}/${
+                  }/image/upload/v1721743304/${
                     currentImage.public_id
                   }.${currentImage.format}`}
                   width={navigation ? 1280 : 1920}
