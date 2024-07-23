@@ -58,7 +58,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-black to-black"></span>
             </div>
             {/* <Logo /> */}
-            <Image src="https://res.cloudinary.com/djlw8bozl/image/upload/v1721767079/Fiverr3_z4wran.png" width="100" height="100" className="rounded-xl"/>
+            <Image alt="" src="https://res.cloudinary.com/djlw8bozl/image/upload/v1721767079/Fiverr3_z4wran.png" width="100" height="100" className="rounded-xl"/>
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
               IlliyinDesigns
             </h1>
