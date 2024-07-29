@@ -31,6 +31,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
     <>
       <Head>
         <title>Illiyindesigns | Discord Logo & Banners</title>
+        <meta name="google-site-verification" content="7X6E0LqDZE4a9adhQsnPZkImK68EAlIXG2YsJPJO7hA" />
         {/* <meta
           property="og:image"
           content="https://nextjsconf-pics.vercel.app/og-image.png"
