@@ -1,3 +1,5 @@
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
@@ -133,6 +135,8 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </a>{" "}
         for the pictures.
       </footer> */}
+      <SpeedInsights />
+      <Analytics />
     </>
   );
 };
