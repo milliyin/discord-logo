@@ -67,7 +67,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
              Welcome to IlliyinDesigns, your go-to for all Discord graphic needs! Enhance your Discord account and server with custom profile pictures, 
-              animated banners, Discord avatar banners, and unique avatars. Our services make your Discord profile and server stand out. <br>
+              animated banners, Discord avatar banners, and unique avatars. Our services make your Discord profile and server stand out.
                Transform your Discord profile and server today with our stunning graphics!
             </p>
             <a
